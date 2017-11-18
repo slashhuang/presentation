@@ -1,4 +1,4 @@
-import './sale.less';
+import './presentation.less';
 import React from 'react';
 import ReactDom from 'react-dom';
 import { SaleDetail } from '../components/sale/detail'

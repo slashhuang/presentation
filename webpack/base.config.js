@@ -19,14 +19,14 @@ module.exports = {
         }),
     ],
     resolve: {
-        extensions: [".js", ".jsx", ".json"],  
+        extensions: ["tsx", "ts", ".js", ".jsx", ".json"],  
     },
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
-                loader: 'babel-loader',
-            }, 
+                test: /\.tsx?$/,
+                loader: 'awesome-typescript-loader',
+            },
             {
                 test: /\.scss$/,
                 use: ExtractTextPlugin.extract({
