@@ -1,5 +1,3 @@
 import './presentation.less';
-import * as React from 'react';
-import * as ReactDom from 'react-dom';
-const node = document.getElementById('root');
-ReactDom.render(<div>hello world</div>, node);
+import '../async_example/vulnerability_button';
+import '../async_example/vulnerability_search';
