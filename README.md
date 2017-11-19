@@ -1,37 +1,20 @@
-# architecture-fe
+## presentation
 
-a boilerplate for fe architecture
 
-# command
+## inspiration
 
-### dev
-```bash
-    npm run dev
-    open localhost:9000
-```
+- problem:
 
-# main functionalities
+async can happen in lots of scenes:
 
-- npm scripts [dev product deploy]
+1. fetch request
+2. socket notify
+3. user input
 
-- babel [ES6 ES5]
+async ==always solved by ==> subscribe for change
 
-- webpack [图片、css、js等处理]
+- how to organize
 
-- jest[单元测试]
+observer
 
-- vue/react 框架
-
-# file structure
-
-```bash
-|- src
-|- |- app
-|- |- components
-|- |- global
-|- |- |- reset.css
-```
-
-# links
-
-[html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
+eventEmitter
